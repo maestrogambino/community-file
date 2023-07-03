@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {} */
+
+.background {
+    background-color: #212121;
+}
+
+.header-1 {
+    display: flex;
+    color: red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 20px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.den {
+    color: white;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 0% 12px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    margin-top: 10px;
+}
+
+.shape {
+    color: white;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    /* border: 2PX SOLID black; */
+}
+
+.us {
+    color: yellow;
+}
+
+h2.design {
+    color: white;
+    font-size: 12px;
+    font-weight: 2px;
+    margin-top: 20px;
+}
+
+.get {
+    background: red;
+    color: white;
+    border: 2px solid red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.figures {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+div.top {
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.fig {
+    color: yellow;
+    padding-bottom: 15px;
+}
+
+h2.year {
+    font-size: 12px;
+    font-weight: 2px;
+    /* padding-top: 5px; */
+}
+
+div.bottom {
+    margin-top: 50px;
+}
+
+.num {
+    color: skyblue;
+    padding-bottom: 15px;
+}
+
+h2.service {
+    font-size: 12px;
+    font-weight: 2px;
+
+}
+
+div.workers {
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 35%;
+    position: relative;
+
+}
+
+.image1 {
+    width: 442.05px;
+    height: 500px;
+    display: block;
+    border: 7px solid #212121;
+    border-radius: 15px;
+
+}
+
+.image2 {
+    width: 180.05px;
+    height: 200px;
+    z-index: 1;
+    position: absolute;
+    top: 350px;
+    right: 350px;
+    border: 5px solid #212121;
+    border-radius: 20px;
+}
+
+h2.offer {
+    color: rgba(182, 205, 50, 0.76);
+    font-size: 12px;
+    font-weight: 2px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2.solution {
+    font-size: 20px;
+    font-weight: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-2 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.construct {
+    margin: 100px auto 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services {
+    text-align: center;
+    display: block;
+    border-radius: 25px;
+    width: auto;
+    border: 1px solid black;
+    padding: 10px;
+    padding: 60px 60px;
+}
+
+.black-services {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: #212121;
+    padding: 70px 70px;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we {
+    color: rgba(182, 205, 50, 0.76);
+    font-size: 12px;
+    font-weight: 2px;
+}
+
+h2.featured {
+    padding: 30px 0px;
+}
+
+h4.good-buildings {
+    padding: 30px 30px;
+    font-weight: 2;
+    color: #9e9e9e;
+}
+
+.footr {
+    background-color: #212121;
+    height: 90vh;
+    z-index: -2;
+}
+
+.section-4 {
+    margin: 100px auto 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects {
+    /* text-align: center; */
+    display: block;
+    border-radius: 15px;
+    width: auto;
+    border: 1px solid white;
+    padding: 10px;
+    padding: 40px 10px;
+    background-color: whitesmoke;
+    /* position: absolute; */
+    /* top: 10px; */
+    margin-top: -90px;
+}
+
+h4.provide {
+    font-weight: 2;
+    color: #9e9e9e;
+}
+
+.mission {
+    color: rgba(182, 205, 50, 0.76);
+    font-size: 12px;
+    font-weight: 2px;
+    text-align: center;
+}
+
+.help {
+    color: white;
+    text-align: center;
+}
+
+.section-5 {
+    margin: 100px auto 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footr-3:first-child {
+    border-right: 1px solid #9e9e9e;
+    padding-right: 70px;
+
+}
+
+.footr-3:last-child {
+    border-left: 1px solid #9e9e9e;
+    padding-left: 70px;
+
+}
+
+h2.first {
+    color: whitesmoke;
+    padding-block: 20px;
+}
+
+h2.second {
+    color: whitesmoke;
+    padding-block: 20px;
+}
+
+h2.third {
+    color: whitesmoke;
+    padding-block: 20px;
+}
+
+.myth {
+    font-weight: 2;
+    color: #9e9e9e;
+}
+
+.common {
+    font-weight: 2;
+    color: #9e9e9e;
+}
+
+.weather {
+    font-weight: 2;
+    color: #9e9e9e;
+}
+
+footer {
+    background: white;
+    height: 50vh;
+    margin-inline: 70px;
+}
+
+.first_h3 {
+    margin-top: 50px;
+}
+
+.daveed {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* align-items: start; */
+    /* text-align: center; */
+
+}
+
+.details {
+    margin-bottom: 100px;
+}
+
+.address {
+    color: #9e9e9e;
+    padding-bottom: 50px;
+
+}
+
+.time {
+    color: #9e9e9e;
+    /* padding-bottom: 200px; */
+}
+
+.about-us {
+    color: #9e9e9e;
+    list-style: none;
+    line-height: 2;
+    font-size: larger;
+
+}
+
+.digits {
+    color: #9e9e9e;
+    list-style: none;
+    line-height: 2;
+    font-size: larger;
+    padding-bottom: 70px;
+}
+
+div.style {
+    margin-bottom: 50px;
+    border: 1px solid #9e9e9e;
+    border-radius: 15px;
+}
+
+.ttp {
+    padding: 3px 2px;
+    outline: none;
+    border: none;
+}
+
+.btn {
+    background-color: grey;
+    border: 1px solid grey;
+    padding: 10px;
+    color: white;
+}
+
+button {
+    display: inline-block;
+    margin: 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding: 15px 25px;
+    border-radius: 8px;
+
+}
+
+.copyrights {
+    color: #9e9e9e;
+    text-align: center;
+    padding-bottom: 20px;
+}
